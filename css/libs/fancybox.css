@@ -1,0 +1,36 @@
+.fancybox-nav span {
+	position: absolute !important;
+	top: 50% !important;
+	width: 28px !important;
+	height: 85px !important;
+	margin-top: -42px !important;
+	cursor: pointer !important;
+	z-index: 8040 !important;
+	background-image: url('../../images/fancy_sprite.png') !important;
+	background-position: -29px 0 ;
+	background-repeat: no-repeat !important;
+	opacity: .8;
+}
+.fancybox-close {
+	position: absolute !important;
+	top: 0 !important;
+	right: -50px !important;
+	width: 29px !important;
+	height: 29px !important;
+	cursor: pointer !important;
+	z-index: 8040 !important;
+	background-image: url('../../images/fancy_sprite.png') !important;
+	background-position: 0 0 !important;
+	background-repeat: no-repeat !important;
+	opacity: .8;
+}
+.fancybox-next{
+	right: -80px !important;
+
+}
+.fancybox-next span{
+	background-position: -58px 0 !important;
+}
+.fancybox-prev{
+	left:-80px !important;
+}
